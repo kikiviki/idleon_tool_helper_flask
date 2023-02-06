@@ -46,6 +46,7 @@ tool_name_dict = {
                 'EquipmentTools1' : 'Old Pickaxe',
                 'EquipmentTools2' : 'Copper Pickaxe',
                 'EquipmentTools3' : 'Iron Pickaxe',
+                'EquipmentTools4' : 'Crap Axe',
                 'EquipmentTools5' : 'Gold Pickaxe',
                 'EquipmentTools6' : 'Platinum Pickaxe',
                 'EquipmentTools7' : 'Dementia Pickaxe',
@@ -96,6 +97,7 @@ tool_name_dict = {
                 'WorshipSkull5' : 'Manifested Skull',
                 'WorshipSkull6' : 'Glauss Skull',
                 'WorshipSkull7' : 'Luciferian Skull',
+                'WorshipSkull8': 'Slushie Skull',
                 'WorshipSkull9' : 'Dreadnaught Skull',
 
                 'Blank' : 'Blank',
@@ -117,6 +119,7 @@ tool_level_dict = {
                 'EquipmentTools1' : 1,
                 'EquipmentTools2' : 3,
                 'EquipmentTools3' : 8,
+                'EquipmentTools4' : -1,
                 'EquipmentTools5' : 15,
                 'EquipmentTools6' : 25,
                 'EquipmentTools7' : 37,
@@ -167,6 +170,7 @@ tool_level_dict = {
                 'WorshipSkull5': 40,
                 'WorshipSkull6': 50,
                 'WorshipSkull7': 60,
+                'WorshipSkull8': 10,
                 'WorshipSkull9': 70,
 
                 'Blank' : 0,
