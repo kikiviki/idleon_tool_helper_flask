@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Output</title>
+</head>
+
+<body>
+    <h2>Output</h2>
+
+ <!-- this section can be replaced by a child document -->
+{% block body %}
+
+<ul>
+{% for item in parsed_output %}
+  <li>{{ item }} </li>
+  {% endfor %}
+</ul>
+
+
+
+
+{% endblock %}
+
+
+</body>
+
+</html>
