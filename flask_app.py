@@ -204,9 +204,9 @@ skills_content_keys = { 'level' : 0,
 
 def mainroutine(json_data):
     final_output = []
-    print('xxxxxxxxxxxxxxxxxxxxxxxxxxx',type(json_data))
+    #print('xxxxxxxxxxxxxxxxxxxxxxxxxxx',type(json_data))
     data = json.loads(json_data)
-    print('xxxxxxxxxxxxxxxxxxxxxxxxxxx',type(data))
+    #print('xxxxxxxxxxxxxxxxxxxxxxxxxxx',type(data))
     #data = json_data
     equip_header_dict = []
     equip_content_dict = []
