@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlaskTest</title>
+</head>
+
+<body>
+    <h2>Idleon Tool Helper</h2>
+    <h4>Copy and Paste JSON below</h4>
+
+<form method="post">
+<label for="content">JSON Content</label>
+        <br>
+        <textarea name="content"
+                  placeholder="Message content"
+                  rows="15"
+                  cols="60"
+                  ></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+ <!-- this section can be replaced by a child document -->
+{% block body %}
+
+
+<h3>{{ parsed_output }}</h3>
+
+
+
+{% endblock %}
+
+
+</body>
+
+</html>
