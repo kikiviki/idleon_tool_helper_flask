@@ -13,7 +13,13 @@
 
 <ul>
 {% for item in parsed_output %}
-  <li>{{ item }} </li>
+{% if 'Character' not in item %}
+<ul>
+<li>{{ item }}</li>
+</ul>
+    {% else %}
+  <li>{{ item }}</li>
+  {% endif %}
   {% endfor %}
 </ul>
 
